@@ -1,10 +1,10 @@
 const topBtn = document.querySelector('.topBtn')
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY > window.innerHeight && !topBtn.classList.contains('visible')) {
+    if (window.scrollY > window.innerHeight * 3 / 4 && !topBtn.classList.contains('visible')) {
         topBtn.classList.add('visible')
     }
-    else if (window.scrollY < window.innerHeight && topBtn.classList.contains('visible')) {
+    else if (window.scrollY < window.innerHeight * 3 / 4 && topBtn.classList.contains('visible')) {
         topBtn.classList.remove('visible')
     }
 })
