@@ -64,11 +64,11 @@
 		<section
 			class="
 				main--section
-				flex-col-reverse
+				flex-col
 				gap-10
 				sm:gap-0 sm:flex-row
 				justify-between
-				py-20
+				py-10
 			"
 		>
 			<!-- HEADLINES SECTION -->
@@ -81,23 +81,36 @@
 						lg:text-6xl
 						text-main-green
 						font-bold
+						sm:text-left
+						text-center
 					"
 				>
 					Exporting high-quality Cumin and Groundnut
 				</h1>
-				<p class="w-[80%]">
+				<p class="w-full sm:w-[80%] sm:text-left text-center">
 					Exporter of cumin seeds & groundnut in more than 3 countries and all
 					across the nation.
 				</p>
 				<button
-					class="rounded-full max-w-max py-2 px-8 bg-main-green text-white"
+					class="
+						rounded-full
+						self-center
+						md:self-start
+						max-w-max
+						py-2
+						px-8
+						bg-main-green
+						text-white
+					"
 				>
 					<a href="#products"> Products </a>
 				</button>
 			</article>
 
 			<!-- SEED IMAGES SECTION -->
-			<article class="flex justify-end items-center md:w-[50%]">
+			<article
+				class="flex justify-center sm:justify-end items-center md:w-[50%]"
+			>
 				<div
 					class="
 						w-[25vw]
@@ -109,7 +122,9 @@
 						flex
 						justify-center
 						items-center
-						translate-x-16
+						translate-x-4
+						sm:translate-x-16
+						z-10
 					"
 				>
 					<img
@@ -129,6 +144,8 @@
 						flex
 						justify-center
 						items-center
+						-translate-x-8
+						sm:-translate-x-0
 					"
 				>
 					<img
@@ -503,6 +520,7 @@
 					>
 				</h1>
 			</div>
+
 			<ul
 				class="
 					flex
@@ -516,8 +534,13 @@
 					items-center
 				"
 			>
-				<li class="">Terms and Conditions</li>
-				<li class="">Privacy Policy</li>
+				<li class="cursor-pointer">Terms and Conditions</li>
+				<li class="cursor-pointer">Privacy Policy</li>
+				<li class="cursor-pointer">
+					<a href="https://codegra.in">
+						Website by <span class="font-semibold">codegra.in</span>
+					</a>
+				</li>
 			</ul>
 
 			<!-- ICON -->
