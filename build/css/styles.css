@@ -1192,6 +1192,10 @@ h6 {
     gap: 0px;
   }
 
+  .sm\:self-start {
+    align-self: flex-start;
+  }
+
   .sm\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -1281,10 +1285,6 @@ h6 {
 
   .md\:gap-10 {
     gap: 2.5rem;
-  }
-
-  .md\:self-start {
-    align-self: flex-start;
   }
 
   .md\:py-14 {
