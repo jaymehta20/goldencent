@@ -81,14 +81,7 @@
 
 		<!-- HERO SECTION -->
 		<section
-			class="
-				main--section
-				flex-col
-				gap-10
-				sm:gap-0 sm:flex-row
-				justify-between
-				py-10
-			"
+			class="main--section gap-10 sm:gap-0 sm:flex-row justify-between py-10"
 		>
 			<!-- HEADLINES SECTION -->
 			<article class="flex flex-col justify-center md:w-[50%] gap-5">
@@ -177,10 +170,7 @@
 		</section>
 
 		<!-- ABOUT US SECTION -->
-		<section
-			class="main--section bg-[#F8F8F8] flex-col py-16 rounded-[5vw]"
-			id="about"
-		>
+		<section class="main--section bg-[#F8F8F8] py-16 rounded-[5vw]" id="about">
 			<div class="flex md:flex-row flex-col">
 				<article class="flex-grow w-full">
 					<h1
@@ -285,17 +275,8 @@
 		</section>
 
 		<!-- PRODUCTS SECTION -->
-		<section id="products" class="main--section flex-col py-14">
-			<h1
-				class="
-					text-center text-5xl
-					font-semibold
-					text-main-green
-					font-main-serif
-				"
-			>
-				Products
-			</h1>
+		<section id="products" class="main--section py-14">
+			<h1 class="section__title">Products</h1>
 			<article
 				class="
 					flex
@@ -362,20 +343,222 @@
 		</section>
 
 		<!-- JOURNEY SECTION -->
-		<section classs="main--section"></section>
+		<section id="journey" class="main--section">
+			<h1 class="section__title">Journey</h1>
+
+			<article
+				class="relative w-full py-36 flex flex-col gap-16 sm:gap-10 z-[10]"
+			>
+				<!-- VERTICAL LINE -->
+				<div
+					class="
+						absolute
+						w-1
+						z-[-1]
+						h-[calc(100%-160px)]
+						top-[80px]
+						left-[calc(50%-2px)]
+						bg-main-green
+					"
+				></div>
+
+				<!-- TOP TWO LEAFS -->
+				<div class="absolute w-8 h-8 top-14 left-[50%] text-main-green">
+					<svg
+						width="100"
+						height="100"
+						class="w-full h-full"
+						viewBox="0 0 100 100"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+							fill="currentcolor"
+						/>
+					</svg>
+				</div>
+				<div
+					class="absolute w-8 h-8 top-14 right-[50%] text-main-green rotate-90"
+				>
+					<svg
+						width="100"
+						height="100"
+						class="w-full h-full"
+						viewBox="0 0 100 100"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+							fill="currentcolor"
+						/>
+					</svg>
+				</div>
+
+				<!-- ITEMS -->
+				<div class="journey__card">
+					<div>
+						<svg
+							width="100"
+							height="100"
+							class="w-full h-full"
+							viewBox="0 0 100 100"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+								fill="currentcolor"
+							/>
+						</svg>
+					</div>
+					<p>
+						Thar city “Jaisalmer” is named after the founder and ruler Rawal
+						Jaiswal Bhati in 1156 AD.
+					</p>
+				</div>
+				<div class="journey__card">
+					<div>
+						<svg
+							width="100"
+							height="100"
+							class="w-full h-full"
+							viewBox="0 0 100 100"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+								fill="currentcolor"
+							/>
+						</svg>
+					</div>
+					<p>
+						Jaisalmer city was well known for tourism and it’s scenic beauty,
+						but there was no root connection of farming & agriculture before a
+						historic step by the government i.e “Indira Gandhi Canal
+						Construction” in 1952.
+					</p>
+				</div>
+				<div class="journey__card">
+					<div>
+						<svg
+							width="100"
+							height="100"
+							class="w-full h-full"
+							viewBox="0 0 100 100"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+								fill="currentcolor"
+							/>
+						</svg>
+					</div>
+					<p>
+						Jaisalmer from city of dunes and sand soon converted into biggest
+						and largest district to produce crops like Cumin, Groundnut &
+						Isabgol.
+					</p>
+				</div>
+				<div class="journey__card">
+					<div>
+						<svg
+							width="100"
+							height="100"
+							class="w-full h-full"
+							viewBox="0 0 100 100"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+								fill="currentcolor"
+							/>
+						</svg>
+					</div>
+					<p>
+						After the canal construction, 1967-1968 was the year which is also
+						known as Green Revolution, changned the image of India in the world
+						map from food deficient country to one of the world’s leading
+						agricultural nation.
+					</p>
+				</div>
+				<div class="journey__card">
+					<div>
+						<svg
+							width="100"
+							height="100"
+							class="w-full h-full"
+							viewBox="0 0 100 100"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+								fill="currentcolor"
+							/>
+						</svg>
+					</div>
+					<p>
+						As per rural data, people from different parts and states of India
+						started migrating to Jaisalmer & its nearby area for healthy
+						agricultural practices,
+					</p>
+				</div>
+				<div class="journey__card">
+					<div>
+						<svg
+							width="100"
+							height="100"
+							class="w-full h-full"
+							viewBox="0 0 100 100"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+								fill="currentcolor"
+							/>
+						</svg>
+					</div>
+					<p>
+						2003-2004 was considered as the best year for production of major
+						crops like Cumin, Groundnut & Isabgol.
+					</p>
+				</div>
+				<div class="journey__card">
+					<div>
+						<svg
+							width="100"
+							height="100"
+							class="w-full h-full"
+							viewBox="0 0 100 100"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M78.8699 11.1111C82.2095 11.1111 85.5492 11.1111 88.3322 11.6667C89.4455 24.4444 89.4454 50 74.417 67.7778C63.2849 81.6667 44.3602 88.8889 18.7562 88.8889H11.5203C10.4071 63.3333 15.4165 43.3333 27.1053 30.5556C41.0205 14.4444 63.2849 11.1111 78.8699 11.1111ZM78.8699 0C48.2564 0 -7.96103 11.6667 0.944707 98.8889C7.0674 99.4444 13.1901 100 18.7562 100C118.389 100 98.3512 1.66667 98.3512 1.66667C98.3512 1.66667 90.5587 0 78.8699 0ZM77.7567 22.2222C22.0958 22.2222 22.0958 77.7778 22.0958 77.7778C44.3602 33.3333 77.7567 22.2222 77.7567 22.2222Z"
+								fill="currentcolor"
+							/>
+						</svg>
+					</div>
+					<p>
+						In year 2020, Goldencent Framer’s Producer Organization targets to
+						reach and spread its wings in every single rural area of Jaisalmer &
+						nearby. As already stated our main moto is “From the farmers, For
+						the farmers, To the farmers” & uplift small & marginal farmers by
+						giving them the real values of their crops and farms.
+					</p>
+				</div>
+			</article>
+		</section>
 
 		<!-- CONTACT US SECTION -->
-		<section id="contact" class="main--section flex-col py-10">
-			<h1
-				class="
-					text-center text-5xl
-					font-semibold
-					text-main-green
-					font-main-serif
-				"
-			>
-				Contact Us
-			</h1>
+		<section id="contact" class="main--section py-10">
+			<h1 class="section__title">Contact Us</h1>
 			<article
 				class="
 					flex
@@ -472,7 +655,6 @@
 				justify-center
 				bg-main-green
 				text-white
-				flex-col
 				py-8
 				sm:py-4
 			"
