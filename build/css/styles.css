@@ -917,10 +917,6 @@ video {
   align-self: flex-end;
 }
 
-.self-center {
-  align-self: center;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1485,10 +1481,6 @@ h6 {
 
   .sm\:gap-4 {
     gap: 1rem;
-  }
-
-  .sm\:self-start {
-    align-self: flex-start;
   }
 
   .sm\:py-10 {
