@@ -688,6 +688,11 @@ video {
   z-index: -1;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -699,6 +704,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-6 {
@@ -737,12 +746,12 @@ video {
   height: 4rem;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-auto {
@@ -797,10 +806,22 @@ video {
   min-width: 220px;
 }
 
+.max-w-screen-xl {
+  max-width: 1280px;
+}
+
 .max-w-max {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-\[250px\] {
+  max-width: 250px;
 }
 
 .max-w-\[300px\] {
@@ -884,12 +905,16 @@ video {
   gap: 1.25rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-16 {
   gap: 4rem;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .self-center {
@@ -916,8 +941,9 @@ video {
   border-radius: 1.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .bg-main-green {
@@ -955,6 +981,11 @@ video {
   padding-bottom: 3.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .py-36 {
   padding-top: 9rem;
   padding-bottom: 9rem;
@@ -968,11 +999,6 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pb-6 {
@@ -1004,6 +1030,11 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-2xl {
@@ -1138,11 +1169,13 @@ h6 {
 
 .about__achivement--card {
   display: flex;
+  min-width: 70%;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   align-items: center;
+  justify-content: center;
   gap: 0.75rem;
   border-radius: 9999px;
   border-width: 1px;
@@ -1152,9 +1185,18 @@ h6 {
   padding-bottom: 0.75rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  font-weight: 600;
   --tw-text-opacity: 1;
   color: rgba(63, 101, 97, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .about__achivement--card {
+    width: auto;
+  }
+
+  .about__achivement--card {
+    min-width: auto;
+  }
 }
 
 .about__subheading {
@@ -1166,6 +1208,8 @@ h6 {
   --tw-text-opacity: 1;
   color: rgba(63, 101, 97, var(--tw-text-opacity));
 }
+
+/* NAVIAGATION */
 
 .navigation__item {
   border-radius: 9999px;
@@ -1179,6 +1223,11 @@ h6 {
 }
 
 .navigation__item:hover {
+  --tw-border-opacity: 1;
+  border-color: rgba(63, 101, 97, var(--tw-border-opacity));
+}
+
+#navigation__item--contact {
   --tw-border-opacity: 1;
   border-color: rgba(63, 101, 97, var(--tw-border-opacity));
 }
@@ -1234,11 +1283,17 @@ h6 {
   }
 
   .journey__card {
-    gap: 5vw;
+    gap: 2.5rem;
   }
 
   .journey__card {
     align-self: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
+  .journey__card {
+    gap: 4rem;
   }
 }
 
@@ -1260,10 +1315,9 @@ h6 {
   height: 2rem;
   width: 2rem;
   flex-shrink: 0;
-  transform-origin: bottom left;
-  --tw-translate-y: -0.75rem;
+  --tw-translate-y: -0.5rem;
   transform: var(--tw-transform);
-  --tw-translate-x: 0.5rem;
+  --tw-translate-x: 1.5rem;
   transform: var(--tw-transform);
   --tw-text-opacity: 1;
   color: rgba(63, 101, 97, var(--tw-text-opacity));
@@ -1274,21 +1328,44 @@ h6 {
 }
 
 .journey__card > div:hover {
-  --tw-rotate: -12deg;
+  --tw-rotate: 90deg;
   transform: var(--tw-transform);
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: var(--tw-transform);
+}
+
+@media (min-width: 640px) {
+  .journey__card > div {
+    --tw-translate-x: 0.75rem;
+    transform: var(--tw-transform);
+  }
 }
 
 .journey__card:nth-child(odd) > div {
-  transform-origin: bottom right;
-  --tw-translate-x: -2.5rem;
+  --tw-translate-x: -1.5rem;
   transform: var(--tw-transform);
   --tw-rotate: 90deg;
   transform: var(--tw-transform);
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 200ms;
 }
 
 .journey__card:nth-child(odd) > div:hover {
-  --tw-rotate: 78deg;
+  --tw-rotate: 360deg;
   transform: var(--tw-transform);
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: var(--tw-transform);
+}
+
+@media (min-width: 640px) {
+  .journey__card:nth-child(odd) > div {
+    --tw-translate-x: -0.75rem;
+    transform: var(--tw-transform);
+  }
 }
 
 .journey__card > p {
@@ -1505,6 +1582,10 @@ h6 {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
   }
 
   .md\:gap-36 {
