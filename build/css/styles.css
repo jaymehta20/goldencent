@@ -693,9 +693,9 @@ video {
   margin-right: auto;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -985,11 +985,6 @@ video {
   background-color: rgba(245, 238, 229, var(--tw-bg-opacity));
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(254, 202, 202, var(--tw-bg-opacity));
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -1074,14 +1069,14 @@ video {
   font-size: 32px;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-sm {
@@ -1265,7 +1260,7 @@ h6 {
   border-color: rgba(63, 101, 97, var(--tw-border-opacity));
 }
 
-#navigation__item--contact {
+.navigation__item--contact {
   --tw-border-opacity: 1;
   border-color: rgba(63, 101, 97, var(--tw-border-opacity));
 }
@@ -1274,7 +1269,7 @@ body,
 #about {
   background-image: url("../../build/images/distort.png");
   background-repeat: repeat;
-  background-size: 50px 50px;
+  background-size: 70px 70px;
 }
 
 /* MOBILE NAV */
@@ -1470,6 +1465,10 @@ nav.visible {
     top: 7rem;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -1599,6 +1598,11 @@ nav.visible {
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
