@@ -766,12 +766,12 @@ video {
   width: 2rem;
 }
 
-.w-\[25vw\] {
-  width: 25vw;
+.w-\[28vw\] {
+  width: 28vw;
 }
 
-.w-\[29vw\] {
-  width: 29vw;
+.w-\[32vw\] {
+  width: 32vw;
 }
 
 .w-\[45vw\] {
@@ -848,13 +848,8 @@ video {
   flex-grow: 1;
 }
 
-.translate-x-4 {
-  --tw-translate-x: 1rem;
-  transform: var(--tw-transform);
-}
-
-.-translate-x-8 {
-  --tw-translate-x: -2rem;
+.translate-x-12 {
+  --tw-translate-x: 3rem;
   transform: var(--tw-transform);
 }
 
@@ -1511,11 +1506,6 @@ nav.visible {
 
   .sm\:translate-x-16 {
     --tw-translate-x: 4rem;
-    transform: var(--tw-transform);
-  }
-
-  .sm\:-translate-x-0 {
-    --tw-translate-x: 0px;
     transform: var(--tw-transform);
   }
 
