@@ -41,33 +41,33 @@ window.addEventListener('scroll', () => {
 // navigation btn smooth scroll
 topBtn.addEventListener('click', () => window.scroll(0, 0))
 
-contactBtn.addEventListener('click', () => window.scroll(0, contactSection.offsetTop))
-journeyBtn.addEventListener('click', () => window.scroll(0, journeySection.offsetTop))
-aboutBtn.addEventListener('click', () => window.scroll(0, aboutSection.offsetTop))
-productsBtn.addEventListener('click', () => window.scroll(0, productsSection.offsetTop))
+// contactBtn.addEventListener('click', () => window.scroll(0, contactSection.offsetTop))
+// journeyBtn.addEventListener('click', () => window.scroll(0, journeySection.offsetTop))
+// aboutBtn.addEventListener('click', () => window.scroll(0, aboutSection.offsetTop))
+// productsBtn.addEventListener('click', () => window.scroll(0, productsSection.offsetTop))
 
 mobContactBtn.addEventListener('click', () => {
     hamburger.classList.remove('visible')
     navmob.classList.remove('visible')
-    window.scroll(0, contactSection.offsetTop)
+    // window.scroll(0, contactSection.offsetTop)
 })
 mobJourneyBtn.addEventListener('click', () => {
     hamburger.classList.remove('visible')
     navmob.classList.remove('visible')
-    window.scroll(0, journeySection.offsetTop)
+    // window.scroll(0, journeySection.offsetTop)
 })
 mobAboutBtn.addEventListener('click', () => {
     hamburger.classList.remove('visible')
     navmob.classList.remove('visible')
-    window.scroll(0, aboutSection.offsetTop)
+    // window.scroll(0, aboutSection.offsetTop)
 })
 mobProductsBtn.addEventListener('click', () => {
     hamburger.classList.remove('visible')
     navmob.classList.remove('visible')
-    window.scroll(0, productsSection.offsetTop)
+    // window.scroll(0, productsSection.offsetTop)
 })
 
-heroProductsBtn.addEventListener('click', () => window.scroll(0, productsSection.offsetTop))
+// heroProductsBtn.addEventListener('click', () => window.scroll(0, productsSection.offsetTop))
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('visible')
     navmob.classList.toggle('visible')
