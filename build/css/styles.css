@@ -1266,7 +1266,9 @@ h6 {
 }
 
 body,
-#about {
+#about,
+.journey__card > p,
+.contact-card {
   background-image: url("../../build/images/distort.png");
   background-repeat: repeat;
   background-size: 70px 70px;
@@ -1590,19 +1592,14 @@ nav.visible {
     line-height: 1;
   }
 
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
