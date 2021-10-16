@@ -1269,7 +1269,8 @@ h6 {
 body,
 #about,
 .journey__card > p,
-.contact-card {
+.contact-card,
+#footer {
   background-image: url("../../build/images/distort.png");
   background-repeat: repeat;
   background-size: 70px 70px;
