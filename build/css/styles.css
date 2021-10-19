@@ -1482,8 +1482,7 @@ nav.visible {
 /* TERMS AND CONDITIONS PAGE */
 
 .tNc {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem;
 }
 
 .tNc h1 {
