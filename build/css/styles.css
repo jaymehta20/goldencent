@@ -1097,7 +1097,8 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Nunito:wght@400;600&display=swap");
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Nunito:wght@400;600&display=swap"); */
 
 *, *::after, *::after {
   margin: 0px;
