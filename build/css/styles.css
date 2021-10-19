@@ -698,6 +698,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -720,6 +724,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-8 {
@@ -760,6 +768,10 @@ video {
 
 .w-auto {
   width: auto;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-8 {
@@ -960,24 +972,19 @@ video {
   border-color: transparent;
 }
 
-.border-main-green {
+.border-\[\#AF8954\] {
   --tw-border-opacity: 1;
-  border-color: rgba(63, 101, 97, var(--tw-border-opacity));
-}
-
-.bg-\[\#f5f5f5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 245, 245, var(--tw-bg-opacity));
-}
-
-.bg-main-green {
-  --tw-bg-opacity: 1;
-  background-color: rgba(63, 101, 97, var(--tw-bg-opacity));
+  border-color: rgba(175, 137, 84, var(--tw-border-opacity));
 }
 
 .bg-\[\#F5EEE5\] {
   --tw-bg-opacity: 1;
   background-color: rgba(245, 238, 229, var(--tw-bg-opacity));
+}
+
+.bg-main-green {
+  --tw-bg-opacity: 1;
+  background-color: rgba(63, 101, 97, var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -1079,12 +1086,21 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .text-main-green {
@@ -1254,19 +1270,22 @@ h6 {
 
 .navigation__item:hover {
   --tw-border-opacity: 1;
-  border-color: rgba(63, 101, 97, var(--tw-border-opacity));
+  border-color: rgba(175, 137, 84, var(--tw-border-opacity));
 }
 
 .navigation__item--contact {
   --tw-border-opacity: 1;
-  border-color: rgba(63, 101, 97, var(--tw-border-opacity));
+  border-color: rgba(175, 137, 84, var(--tw-border-opacity));
 }
+
+/* NOISE EFFECT */
 
 body,
 #about,
 .journey__card > p,
 .contact-card,
-#footer {
+#footer,
+nav {
   background-image: url("../../build/images/distort.png");
   background-repeat: repeat;
   background-size: 70px 70px;
