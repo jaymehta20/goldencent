@@ -608,6 +608,10 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1473,6 +1477,38 @@ nav.visible {
   background-color: rgba(63, 101, 97, var(--tw-bg-opacity));
   border: 4px solid transparent;
   background-clip: content-box;
+}
+
+/* TERMS AND CONDITIONS PAGE */
+
+.tNc {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.tNc h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: Frank Ruhl Libre, serif;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.tNc h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+
+.tNc h3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
 }
 
 @media (min-width: 640px) {
