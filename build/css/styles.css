@@ -1270,12 +1270,12 @@ h6 {
 
 .navigation__item:hover {
   --tw-border-opacity: 1;
-  border-color: rgba(175, 137, 84, var(--tw-border-opacity));
+  border-color: rgba(63, 101, 97, var(--tw-border-opacity));
 }
 
 .navigation__item--contact {
   --tw-border-opacity: 1;
-  border-color: rgba(175, 137, 84, var(--tw-border-opacity));
+  border-color: rgba(63, 101, 97, var(--tw-border-opacity));
 }
 
 /* NOISE EFFECT */
