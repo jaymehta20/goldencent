@@ -1299,7 +1299,7 @@ body,
 .contact-card,
 #footer,
 nav {
-  background-image: url("../../build/images/distort.png");
+  background-image: url("../../build/images/distort.webp");
   background-repeat: repeat;
   background-size: 70px 70px;
 }

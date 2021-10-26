@@ -1,24 +1,8 @@
 const topBtn = document.querySelector('.topBtn')
 const hamburger = document.querySelector('.hamburger')
 const navmob = document.querySelector('#navmob')
-
-const contactBtn = document.querySelector('.navigation__item--contact')
-const aboutBtn = document.querySelector('.navigation__item--about')
-const journeyBtn = document.querySelector('.navigation__item--journey')
-const productsBtn = document.querySelector('.navigation__item--products')
-
-const mobContactBtn = document.querySelector('.navigation__mob__item--contact')
-const mobAboutBtn = document.querySelector('.navigation__mob__item--about')
-const mobJourneyBtn = document.querySelector('.navigation__mob__item--journey')
-const mobProductsBtn = document.querySelector('.navigation__mob__item--products')
-
-const heroProductsBtn = document.querySelector('.productsBtn')
-
+const mobNavItem = document.querySelectorAll('.navigation__mob__item')
 const heroSection = document.getElementById('hero')
-const contactSection = document.getElementById('contact')
-const aboutSection = document.getElementById('about')
-const journeySection = document.getElementById('journey')
-const productsSection = document.getElementById('products')
 
 // to visible and invisible the go to top btn
 window.addEventListener('scroll', () => {
@@ -41,25 +25,11 @@ window.addEventListener('scroll', () => {
 // navigation btn smooth scroll
 topBtn.addEventListener('click', () => window.scroll(0, 0))
 
-mobContactBtn.addEventListener('click', () => {
-    hamburger.classList.remove('visible')
-    navmob.classList.remove('visible')
-    // window.scroll(0, contactSection.offsetTop)
-})
-mobJourneyBtn.addEventListener('click', () => {
-    hamburger.classList.remove('visible')
-    navmob.classList.remove('visible')
-    // window.scroll(0, journeySection.offsetTop)
-})
-mobAboutBtn.addEventListener('click', () => {
-    hamburger.classList.remove('visible')
-    navmob.classList.remove('visible')
-    // window.scroll(0, aboutSection.offsetTop)
-})
-mobProductsBtn.addEventListener('click', () => {
-    hamburger.classList.remove('visible')
-    navmob.classList.remove('visible')
-    // window.scroll(0, productsSection.offsetTop)
+mobNavItem.forEach(navItem => {
+    navItem.addEventListener('click', () => {
+        hamburger.classList.remove('visible')
+        navmob.classList.remove('visible')
+    })
 })
 
 hamburger.addEventListener('click', () => {
