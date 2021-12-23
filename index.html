@@ -378,7 +378,7 @@
 				class="main--section gap-10 sm:gap-0 sm:flex-row justify-between py-16"
 			>
 				<!-- HEADLINES SECTION -->
-				<article class="flex flex-col justify-center md:w-[50%] gap-5">
+				<article class=" flex flex-col justify-center md:w-[50%] gap-5">
 					<h1
 						class="
 							font-main-serif
@@ -389,7 +389,10 @@
 							font-bold
 						"
 					>
-						Exporting high-quality Cumin and Groundnut
+						<span class="block">Exporting</span>
+						<span class="block">high-quality</span>
+						<span class="block">Cumin, Groundnut</span>
+						<span class="block">& Pomegranate</span>
 					</h1>
 					<p class="w-full sm:w-[80%]">
 						Exporter of cumin seeds & groundnut in more than 3 countries and all
@@ -404,6 +407,7 @@
 							py-2
 							sm:py-3
 							px-8
+							mt-4
 							sm:px-12
 							bg-main-green
 							text-white
@@ -417,7 +421,35 @@
 				<article class="flex justify-end items-center md:w-[50%]">
 					<div
 						class="
-							w-[28vw]
+							w-[17vw]
+							sm:w-[19vw]
+							md:w-[14vw]
+							lg:w-[11vw]
+							max-w-[150px]
+							rounded-full
+							overflow-hidden
+							flex
+							justify-center
+							items-center
+							translate-x-20
+							sm:translate-x-28
+							z-20
+						"
+					>
+						<picture>
+							<source srcset="./build/images/pomagrenate-comp.webp" />
+							<source type="image/jpeg" srcset="./build/images/pomagrenate.jpg" />
+							<img
+								width="auto"
+								height="auto"
+								src="./build/images/cumin.jpg"
+								alt="seed"
+							/>
+						</picture>
+					</div>
+					<div
+						class="
+							w-[24vw]
 							sm:w-[23vw]
 							md:w-[18vw]
 							lg:w-[15vw]
@@ -752,12 +784,12 @@
 						gap-10
 						py-16
 						sm:justify-center
-						md:gap-36
+						md:gap-28
 						relative
 					"
 				>
-					<div class="flex flex-col gap-4">
-						<div class="rounded-full overflow-hidden w-48 h-48 sm:h-64 sm:w-64">
+					<div class="flex flex-col gap-4  max-w-full">
+						<div class="rounded-full overflow-hidden max-w-full">
 							<picture>
 								<source srcset="./build/images/product-2-comp.webp" />
 								<source
@@ -783,8 +815,8 @@
 							Groundnut
 						</h2>
 					</div>
-					<div class="flex flex-col gap-4">
-						<div class="rounded-full overflow-hidden w-48 h-48 sm:h-64 sm:w-64">
+					<div class="flex flex-col gap-4 max-w-full">
+						<div class="rounded-full overflow-hidden max-w-full">
 							<picture>
 								<source srcset="./build/images/product-1-comp.webp" />
 								<source
@@ -810,10 +842,37 @@
 							Cumin
 						</h2>
 					</div>
+					<div class="flex flex-col gap-4 max-w-full">
+						<div class="rounded-full overflow-hidden max-w-full">
+							<picture>
+								<source srcset="./build/images/product-3-comp.webp" />
+								<source
+									type="image/jpeg"
+									srcset="./build/images/product-3.jpg"
+								/>
+								<img
+									width="auto"
+									height="auto"
+									src="./build/images/product-3.jpg"
+									alt="product"
+								/>
+							</picture>
+						</div>
+						<h2
+							class="
+								text-center text-2xl
+								sm:text-2xl
+								font-semibold
+								text-main-green
+							"
+						>
+							Pomegranate
+						</h2>
+					</div>
 
 					<!-- ICONS -->
 					<div
-						class="absolute h-11 w-11 left-0 top-[5%] md:h-16 md:w-16 md:top-10"
+						class="absolute h-11 w-11 left-0 top-0 md:h-16 md:w-16"
 					>
 						<svg
 							width="100"
@@ -836,8 +895,8 @@
 							h-11
 							w-11
 							right-0
-							bottom-[5%]
-							md:h-16 md:w-16 md:bottom-10
+							bottom-0
+							md:h-16 md:w-16
 						"
 					>
 						<svg
@@ -942,6 +1001,7 @@
 							Jaiswal Bhati in 1156 AD.
 						</p>
 					</div>
+
 					<div class="journey__card">
 						<div>
 							<svg
@@ -958,6 +1018,7 @@
 								/>
 							</svg>
 						</div>
+						
 						<p>
 							Jaisalmer city was well known for tourism and it’s scenic beauty,
 							but there was no root connection of farming & agriculture before a
@@ -1105,52 +1166,62 @@
 							rounded-3xl
 							bg-main-green
 							py-10
-							px-4
+							px-10
 							text-white
 							w-full
-							max-w-[300px]
 							justify-center
 							items-center
 							contact-card
 						"
 					>
-						<h2 class="text-center text-2xl font-main-serif">Email</h2>
+						<h2 class="text-center text-3xl font-main-serif">Email</h2>
+						<a href="mailto:sunil@goldencent.in" class="text-center text-lg"
+							>Sunil@goldencent.in</a
+						>
+						<a href="mailto:anurag@goldencent.in" class="text-center text-lg"
+							>Anurag@goldencent.in</a
+						>
+						<a href="mailto:avinash@goldencent.in" class="text-center text-lg"
+							>Avinash@goldencent.in</a
+						>
+						<a href="mailto:ceo@goldencent.in" class="text-center text-lg"
+							>Ceo@goldencent.in</a
+						>
 						<a href="mailto:info@goldencent.in" class="text-center text-lg"
-							>info@goldencent.in</a
+							>Info@goldencent.in</a
 						>
 					</div>
 					<div
 						class="
 							flex flex-col
-							gap-2
+							gap-4
 							rounded-3xl
 							bg-main-green
 							py-10
-							px-4
+							px-10
 							text-white
 							w-full
-							max-w-[300px]
-							justify-center
+							justify-start
 							items-center
 							contact-card
 						"
 					>
-						<h2 class="text-center text-2xl font-main-serif">Call us</h2>
+						<h2 class="text-center text-3xl font-main-serif">Call us</h2>
 						<a
 							href="tel:9829700249"
-							class="text-sm text-center whitespace-nowrap"
+							class="text-lg text-center whitespace-nowrap"
 						>
 							Sunil: 9829700249
 						</a>
 						<a
 							href="tel:9829700249"
-							class="text-sm text-center whitespace-nowrap"
+							class="text-lg text-center whitespace-nowrap"
 						>
 							Anurag: 9829700249
 						</a>
 						<a
 							href="tel:9829700249"
-							class="text-sm text-center whitespace-nowrap"
+							class="text-lg text-center whitespace-nowrap"
 						>
 							Avinash: 9829700249
 						</a>
